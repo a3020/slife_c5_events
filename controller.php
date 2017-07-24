@@ -9,7 +9,7 @@ class Controller extends SlifePackageController
 {
     protected $pkgHandle = 'slife_c5_events';
     protected $appVersionRequired = '8.2';
-    protected $pkgVersion = '0.9.1';
+    protected $pkgVersion = '0.9.3';
     protected $pkgAutoloaderRegistries = [
         'src' => '\SlifeC5Events',
     ];
@@ -19,6 +19,8 @@ class Controller extends SlifePackageController
         'on_page_delete',
         'on_file_delete',
         'on_user_add',
+        'on_user_login',
+        'on_user_change_password',
 
         /*
          * 'on_page_add', // cName not available, use on_page_type_publish
@@ -32,12 +34,10 @@ class Controller extends SlifePackageController
         //'on_file_add',
         //'on_file_download',
         //'on_user_update',
-        //'on_user_change_password',
         //'on_user_delete',
         //'on_user_validate',
         //'on_user_activate',
         //'on_user_deactivate',
-        //'on_user_login',
         //'on_job_execute',
     ];
 

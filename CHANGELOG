@@ -1,3 +1,9 @@
+0.9.3
+- Add 'on_user_change_password' event.
+
+0.9.2
+- Add 'on_user_login' event.
+
 0.9.1
 - Add 'on_user_add' event.
 
