@@ -32,7 +32,7 @@ class OnPageTypePublish extends BasicEvent
      */
     protected function getDefaultMessage()
     {
-        return t("Page {page_name} added by user {user_name}.");
+        return t("Page {page_name} has been added by user {user_name}.");
     }
 
     /**
