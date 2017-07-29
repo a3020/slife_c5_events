@@ -19,7 +19,7 @@ class OnFileDelete extends BasicEvent
      */
     protected function getDefaultMessage()
     {
-        return t("File '{file_name}' has been deleted.");
+        return t("File *{file_name}* has been deleted.");
     }
 
     /**

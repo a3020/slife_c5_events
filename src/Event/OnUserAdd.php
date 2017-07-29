@@ -21,7 +21,7 @@ class OnUserAdd extends BasicEvent
      */
     protected function getDefaultMessage()
     {
-        return t("User {user_name} ({email_address}) has been added.");
+        return t("User *{user_name}* ({email_address}) has been added.");
     }
 
     /**

@@ -20,7 +20,7 @@ class OnUserChangePassword extends BasicEvent
      */
     protected function getDefaultMessage()
     {
-        return t("The password of {user_name} has just changed.");
+        return t("The password of *{user_name}* has just changed.");
     }
 
     /**

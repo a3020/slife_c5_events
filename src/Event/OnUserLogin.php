@@ -21,7 +21,7 @@ class OnUserLogin extends BasicEvent
      */
     protected function getDefaultMessage()
     {
-        return t("User {user_name} just logged in via IP {ip}.");
+        return t("User *{user_name}* just logged in via IP {ip}.");
     }
 
     /**
