@@ -9,7 +9,7 @@ class Controller extends SlifePackageController
 {
     protected $pkgHandle = 'slife_c5_events';
     protected $appVersionRequired = '8.2';
-    protected $pkgVersion = '0.9.3';
+    protected $pkgVersion = '0.9.4';
     protected $pkgAutoloaderRegistries = [
         'src' => '\SlifeC5Events',
     ];
