@@ -21,24 +21,6 @@ class Controller extends SlifePackageController
         'on_user_add',
         'on_user_login',
         'on_user_change_password',
-
-        /*
-         * 'on_page_add', // cName not available, use on_page_type_publish
-         */
-
-        /* @todo these events still need to be implemented */
-        //'on_page_update',
-        //'on_page_version_approve',
-        //'on_page_version_submit_approve',
-        //'on_page_version_deny',
-        //'on_file_add',
-        //'on_file_download',
-        //'on_user_update',
-        //'on_user_delete',
-        //'on_user_validate',
-        //'on_user_activate',
-        //'on_user_deactivate',
-        //'on_job_execute',
     ];
 
     public function getPackageName()
