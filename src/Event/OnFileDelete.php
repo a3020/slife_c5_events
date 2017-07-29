@@ -6,16 +6,6 @@ use Slife\Integration\BasicEvent;
 
 class OnFileDelete extends BasicEvent
 {
-    /**
-     * Return the handle of the event.
-     *
-     * @return string
-     */
-    public function getEventHandle()
-    {
-        return 'on_file_delete';
-    }
-
     public function install()
     {
         $this->getOrCreateEvent();

@@ -7,16 +7,6 @@ use Slife\Utility\Slack;
 
 class OnUserAdd extends BasicEvent
 {
-    /**
-     * Return the handle of the event.
-     *
-     * @return string
-     */
-    public function getEventHandle()
-    {
-        return 'on_user_add';
-    }
-
     public function install()
     {
         $this->getOrCreateEvent();

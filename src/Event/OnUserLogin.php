@@ -7,16 +7,6 @@ use Slife\Utility\Slack;
 
 class OnUserLogin extends BasicEvent
 {
-    /**
-     * Return the handle of the event.
-     *
-     * @return string
-     */
-    public function getEventHandle()
-    {
-        return 'on_user_login';
-    }
-
     public function install()
     {
         $this->getOrCreateEvent();

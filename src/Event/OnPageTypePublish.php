@@ -8,16 +8,6 @@ use Slife\Utility\Slack;
 
 class OnPageTypePublish extends BasicEvent
 {
-    /**
-     * Return the handle of the event.
-     *
-     * @return string
-     */
-    public function getEventHandle()
-    {
-        return 'on_page_type_publish';
-    }
-
     public function install()
     {
         $this->getOrCreateEvent();

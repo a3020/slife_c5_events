@@ -8,16 +8,6 @@ use Slife\Utility\Slack;
 
 class OnPageDelete extends BasicEvent
 {
-    /**
-     * Return the handle of the event.
-     *
-     * @return string
-     */
-    public function getEventHandle()
-    {
-        return 'on_page_delete';
-    }
-
     public function install()
     {
         $this->getOrCreateEvent();
