@@ -1,3 +1,8 @@
+1.0
+- Update readme.
+- Check for Slife dependency during install.
+- Don't let the package controller extend from Slife.
+
 0.9.4
 - Update icon with rounded corners.
 - Remove 'getEventHandle' methods. The handles will be derived from the BasicEvent class now.
