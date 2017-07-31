@@ -9,7 +9,7 @@ use Concrete\Core\Support\Facade\Package;
 class Controller extends BasePackage
 {
     protected $pkgHandle = 'slife_c5_events';
-    protected $appVersionRequired = '8.1';
+    protected $appVersionRequired = '8.2';
     protected $pkgVersion = '1.0';
     protected $pkgAutoloaderRegistries = [
         'src' => '\SlifeC5Events',
