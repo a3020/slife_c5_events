@@ -52,7 +52,7 @@ class Controller extends BasePackage
         }
     }
 
-    public function validate_install()
+    public function validate_install($data = [])
     {
         $error = $this->app->make('error');
 
